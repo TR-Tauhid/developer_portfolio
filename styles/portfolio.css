@@ -1,0 +1,344 @@
+* {
+    font-family: Open Sans;
+    margin: 0;
+}
+
+.header {
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: right bottom, left;
+}
+
+.nav-title {
+    color: var(--Dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px 80px 0px 0px;
+}
+
+
+.btn-primary {
+    color: #FFFF;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    width: 150px;
+    height: 64px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+}
+
+
+/* Banner Styles */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-title-box {
+    margin-left: 200px;
+    width: 40%;
+}
+
+.banner-image {
+    padding-right: 38px;
+}
+
+.banner-subtitle {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.banner-maintitle {
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 85px;
+    font-weight: 700;
+    margin: 10px 0px 30px 0px;
+}
+
+.portfolio-description {
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.btn-banner {
+    color: #FFFF;
+    background-color: #FD6E0A;
+    font-family: Open Sans;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    width: 200px;
+    height: 64px;
+    border-style: none;
+    margin-right: 30px;
+}
+
+.banner a {
+    text-decoration: none;
+    padding: 10px;
+    color: #FFFF;
+}
+
+.btn-banner-1 {
+    background-color: #FD6E0A;
+    font-family: Open Sans;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    width: 200px;
+    height: 64px;
+    border-style: none;
+    margin-right: 30px;
+}
+
+.btn-banner-2 {
+    color: #FD6E0A;
+    background-color: #FFFF;
+    font-family: Open Sans;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    width: 200px;
+    height: 64px;
+    border: 2px solid #FD6E0A;
+    margin-right: 30px;
+}
+
+.btn-banner-2 a {
+    color: #FD6E0A;
+}
+
+/* main section styles */
+main {
+    width: 1140px;
+    margin: 0px auto;
+}
+
+
+/* About Section */
+
+.about {
+    display: inline-block;
+    text-align: center;
+    width: 1140px;
+    height: 550px;
+    margin-top: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+}
+
+.section-title {
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+.section-description {
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 30px 150px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 130px;
+}
+
+.about-info-title {
+    color: #474747;
+    font-size: 20px;
+}
+
+.about-info {
+    color: var(--Dark-02, #474747);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+/* What I do style */
+
+.what-i-do {
+    text-align: center;
+    margin: 150px auto;
+}
+
+.what-i-do-title {
+    color: var(--Dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.what-i-do-paragraph {
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0px 100px 30px;
+
+}
+
+.skills-container {
+    display: flex;
+    align-items: center;
+}
+
+.skills {
+    width: 267px;
+    height: 377px;
+    text-align: left;
+    margin: 12px;
+    box-shadow: 0px 0px 50px rgba(139, 139, 139, 0.199);
+}
+
+.skills>img {
+    padding: 30px;
+}
+
+.skill-title {
+    color: var(--Dark-01, #181818);
+    font-family: Open Sans;
+    padding: 0px 30px 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.skill-description {
+    padding: 0px 30px;
+}
+
+
+/* Resume Section */
+
+.resume-container {
+    text-align: left;
+}
+
+.resume-box {
+    display: flex;
+    color: var(--Dark-02, #474747);
+}
+
+.resume-main-title {
+    text-align: center;
+    color: var(--Dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    padding: 100px;
+    margin-right: 25px;
+}
+
+.resume-sub-box-mini{
+    border-bottom: 1px solid #D1D1D1;
+    border-width: 1px;
+    margin-right: 20px;
+    
+}
+
+.resume-main-title {
+    display: block;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-box-title {
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px 0px 10px;
+}
+
+.resume-sub-title {
+    padding-bottom: 30px;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-box-time {
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.resume-box-time p {
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 0px 20px;
+    line-height: 28px;
+}
+
+.resume-btn-container{
+    display: flex;
+    align-items: center;
+
+}
+.resume-btn{
+    background-color: #FD6E0A;
+    font-family: Open Sans;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    width: 200px;
+    height: 64px;
+    margin: 80px auto;
+    border-style: none;
+}
+.resume-btn a{
+    text-decoration: none;
+    color: white;
+}
