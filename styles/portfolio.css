@@ -278,11 +278,11 @@ main {
     margin-right: 25px;
 }
 
-.resume-sub-box-mini{
+.resume-sub-box-mini {
     border-bottom: 1px solid #D1D1D1;
     border-width: 1px;
     margin-right: 20px;
-    
+
 }
 
 .resume-main-title {
@@ -296,11 +296,11 @@ main {
     font-family: Open Sans;
     font-size: 25px;
     font-weight: 700;
-    padding: 10px 0px 10px;
+    padding: 30px 0px 10px;
 }
 
 .resume-sub-title {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     font-family: Open Sans;
     font-size: 30px;
     font-weight: 700;
@@ -322,12 +322,13 @@ main {
     line-height: 28px;
 }
 
-.resume-btn-container{
+.resume-btn-container {
     display: flex;
     align-items: center;
 
 }
-.resume-btn{
+
+.resume-btn {
     background-color: #FD6E0A;
     font-family: Open Sans;
     border-radius: 5px;
@@ -338,7 +339,87 @@ main {
     margin: 80px auto;
     border-style: none;
 }
-.resume-btn a{
+
+.resume-btn a {
     text-decoration: none;
     color: white;
+}
+
+/* Contact styles */
+
+
+.contact-container {
+    display: flex;
+    align-items: top;
+    background-color: #FFF8F3;
+}
+
+.contact-box {
+    margin: 130px auto;
+    display: block;
+    max-width: 600px;
+    margin-left: 0px 150px;
+}
+
+.contact-box img {
+    padding-right: 10px;
+}
+
+.contact-title {
+    color: var(--Dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 35px;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+
+.contact-detail {
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-bottom: 30px;
+
+}
+
+.contact-container a {
+    text-decoration: none;
+}
+
+.contact-container input {
+    width: 461px;
+    height: 64px;
+    border-style: none;
+    border-radius: 5px;
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    padding: 18px 30px;
+    margin: 24px 0px;
+}
+
+.contact-container textarea {
+    width: 461px;
+    height: 180px;
+    border-radius: 5px;
+    border-style: none;
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    padding: 18px 30px;
+    margin: 24px 0px;
+}
+
+.contact-box .submit-btn {
+    font-family: Open Sans;
+    background-color: #FD6E0A;
+    color: var(--White-Color, #FFF);
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    width: 200px;
+    height: 64px;
 }
